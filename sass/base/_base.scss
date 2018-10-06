@@ -1,7 +1,18 @@
+html{
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+*, *::after, *::before{
+    box-sizing: inherit;
+}
 body{
     background-color: $color-Grey;
-    
+    font-family:$roboto-font;
+    font-size: 1rem;
 }
+
+
 .creation{
     background-color: $color-White;
 }
@@ -16,4 +27,7 @@ body{
 .Main-content{
     margin: 0 auto;
     width:129rem;
+}
+a {
+    display: inline-block;
 }

@@ -1,0 +1,108 @@
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.deals__section {
+  background: white;
+}
+
+.ad-- {
+  &section {
+    width: 100%;
+    padding: 5rem 0;
+    &__title {
+      font-weight: 100;
+      font-size: 1.8rem;
+      letter-spacing: 0.2rem;
+      border-bottom: 1px solid #333;
+      display: inline-block;
+      width: 20%;
+      padding-bottom: 1rem;
+      margin-bottom: 2rem;
+    }
+  }
+
+  &card {
+    cursor: pointer;
+    height: 300px;
+    border: 2px solid #ebebeb;
+    border-radius: 3px;
+    position: relative;
+    transition: all 0.3s linear;
+    &__badge {
+      position: absolute;
+      padding: 8px 15px;
+      text-transform: capitalize;
+      color: #fff;
+      background: #8eb55a;
+      font-size: 1.2rem;
+      font-weight: 500;
+      border-radius: 4px;
+      top: 19px;
+      left: -10px;
+    }
+    &__image {
+      display: block;
+      width: 100%;
+      overflow: hidden;
+      margin-top: 1px;
+      height: 150px;
+      img {
+        object-fit: contain;
+      }
+    }
+    &__store {
+      color: #c7c7c7;
+      padding: 1rem 1rem;
+      font-size: 1.5rem;
+    }
+
+    &__description {
+      font-weight: 400;
+      padding: 0 1rem;
+      font-size: 1.4rem;
+    }
+    &__visit-store {
+      text-decoration: underline;
+      color: $color-main-blue;
+      position: absolute;
+      bottom: 0rem;
+      right: 2rem;
+      font-size: 1.6rem;
+      opacity: 0;
+      transition: all 0.3s linear;
+    }
+
+    &__price {
+        font-size: 2rem;
+        font-weight: 700;
+        display: block;
+        padding: 1rem;
+    }
+
+    &__original-price {
+        font-size: 1.2rem;
+        padding: 0 1rem;
+        font-weight: 500;
+        color: #b3b3b3;
+        text-decoration: line-through;
+        display: block;
+    }
+    &:hover {
+      border-color: $color-main-blue;
+      
+    }
+
+    
+    &:hover &__visit-store {
+        opacity: 1;
+        transform: translateY(-2rem);
+        right: 2rem;
+    }
+
+    &:hover &__description {
+        text-decoration: underline;
+    }
+  }
+}
