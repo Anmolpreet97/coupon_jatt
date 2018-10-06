@@ -1,0 +1,33 @@
+
+.welcome_text{
+    padding: 2rem 3rem;
+    
+    &-main{
+       display:inline-block; 
+    }
+    
+    &-sub{
+        font-size: 1.4rem;
+    letter-spacing: 2px;
+        
+    }
+    &-head{
+         display:inline-block;
+    background-color:$color-main-Blue;
+    padding:.2rem 2rem;
+    font-size: 2rem;
+    color: $color-White;
+    font-family: $primary-font;
+        
+    }
+}
+
+
+.underline{
+    color:$color-main-Blue;
+    text-decoration: underline;
+    font-size: 1.6rem;
+    font-family: $primary-font;
+
+}
+

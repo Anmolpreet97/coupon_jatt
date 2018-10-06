@@ -1,0 +1,19 @@
+body{
+    background-color: $color-Grey;
+    
+}
+.creation{
+    background-color: $color-White;
+}
+#above_menu{
+    background-color: $color-main-Blue;
+    padding:.5rem 2rem;
+    text-align: right;
+    font-family:$primary-font;
+    font-size: 1rem;
+    color: $color-White;
+}
+.Main-content{
+    margin: 0 auto;
+    width:129rem;
+}

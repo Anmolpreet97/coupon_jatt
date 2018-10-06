@@ -1,0 +1,32 @@
+.col-1-of-5{
+    float:left;
+    
+}
+.navbar_menu{
+     width:20%;
+    
+    &-items{
+        width:35%;
+    }
+    &-search{
+        width:15%;
+        
+    }
+    &-signup{
+        width: 20%;
+        text-align: center;
+    }
+    &-social{
+        width:10%;
+    }
+    
+}
+
+.col-2-0f-1{
+    float: left;
+    width: 30%;
+}
+.col-2-0f-6{
+    float:left;
+    width:70%;
+}

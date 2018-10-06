@@ -1,0 +1,91 @@
+.popular-store{
+    background-color: #519cde;
+    padding: 3rem;
+    position: relative;
+    height: 40rem;
+   
+    
+    &_trends{
+       
+        text-align: center;
+        
+        
+    }
+    &_heading{
+      
+        color:$color-White;
+        font-family: $primary-font;
+        font-size: 1rem;
+        text-align: left;
+      
+        .line{
+            margin-top: 2rem;
+              border-bottom: 1px solid $color-White;
+             max-width: 65%;
+             
+        }
+        
+    }
+    &_trending{
+        position: absolute;
+        left: 4rem;
+        top: 20rem;
+        padding: 4rem 0;
+        background-color:  $color-White;
+        width: 23%;
+        height: 45%;
+        
+        .trending_image{
+            margin-top:3rem;
+        }
+       
+    }
+    &_lists{
+        text-align: center;
+        
+    }
+    &_main{
+        margin-left:3rem;
+        background-color: $color-White;
+        padding: 2rem;
+    }
+    
+    li{
+        display: inline-block;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

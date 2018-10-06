@@ -1,0 +1,42 @@
+.dropdown{
+    float:left;
+    overflow: hidden;
+   
+}
+
+.dropdown_content-categories{
+    display:none;
+    overflow: hidden;
+    position:absolute;
+    width:100%;
+    background-color: $color-White;
+    left:0;
+    box-shadow: 0px 20px 20px 0px rgba($color-White,0.3);
+    z-index: 1;
+    top:15%;
+    
+}
+.dropdown:hover .dropdown_content-categories{
+    display: block;
+    
+}
+
+.dropdown_content-column{
+    float:left;
+    width:16.666%;
+    height: 30rem;
+    background-color: $color-White;
+    
+    a{
+        float:none;
+        color:#000;
+        padding: 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+
+    }
+    
+}
+
+

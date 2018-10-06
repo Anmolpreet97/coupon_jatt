@@ -1,0 +1,14 @@
+{
+  "name": "couponjatt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass":"node-sass sass/main.scss style.css -w"
+  },
+  "author": "navi",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.9.3"
+  }
+}
