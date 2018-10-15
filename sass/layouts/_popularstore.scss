@@ -3,16 +3,22 @@
     padding: 3rem;
     position: relative;
     height: 40rem;
+    
+    &_stores{
+         max-width: 129rem;
+        margin: 0 auto;
+    }
    
     
     &_trends{
-       
+            
+
         text-align: center;
         
         
     }
     &_heading{
-      
+        
         color:$color-White;
         font-family: $primary-font;
         font-size: 1rem;
@@ -27,13 +33,14 @@
         
     }
     &_trending{
+        
         position: absolute;
         left: 4rem;
-        top: 20rem;
+        top: 16rem;
         padding: 4rem 0;
         background-color:  $color-White;
         width: 23%;
-        height: 45%;
+        height: 50%;
         
         .trending_image{
             margin-top:3rem;
@@ -42,13 +49,36 @@
     }
     &_lists{
         text-align: center;
+      
+        
+    }
+    &_lists2{
+position: absolute;
+        top:40%;
+        right: .5%;
+        text-align: center;
+        
+    }
+    &_lists3{
+position: absolute;
+        top:70%;
+        right: .5%;
+        text-align: center;
+          
         
     }
     &_main{
         margin-left:3rem;
         background-color: $color-White;
         padding: 2rem;
+      
+     &:hover{
+            background-color: #2d3e50;
+         cursor: pointer;
+        }    
+    
     }
+    
     
     li{
         display: inline-block;
